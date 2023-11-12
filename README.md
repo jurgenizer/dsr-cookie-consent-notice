@@ -13,7 +13,7 @@ Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCooki
 View the demo [here](https://happyhols.co.za/h/)
 
 ### CSS
-The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework for styling. However, this can easily be replaced if you prefer to use your own CSS.
+The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework. However, this can easily be replaced if you prefer to use your own CSS.
 
 ### How to use this cookie consent notice
 Insert this code in your html `<head>` tag.

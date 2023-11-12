@@ -9,6 +9,9 @@ Cookie consent notices have become increasingly popular worldwide, especially si
 
 Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCookies) by Almoguera (2021).
 
+### Demo
+View the demo here
+
 ### CSS
 The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework for styling. However, this can easily be replaced if you prefer to use your own CSS.
 
@@ -18,9 +21,9 @@ Insert this code in your html `<head>` tag.
 <!--Import Bulma CSS -->
 <link rel="stylesheet" href="bulma.min.css">
 
-  <!-- JavaScript for DSR Cookie Consent Notice-->
-  <script src="dsr-ccn.js"></script> 
-  <script>
+<!-- JavaScript for DSR Cookie Consent Notice-->
+<script src="dsr-ccn.js"></script> 
+<script>
     cookieConsentNotice.start('en', {
         analytics: 'G-8PDMD2MD95', 
         hideAfterClick: false,
@@ -47,9 +50,22 @@ Insert this code in your html `<head>` tag.
         manageColor: '#ffffff',
         manageBackground: '#0B67A5' 
       });
-  </script>
+</script>
 ```
 Note, most options are configurable. Simply set the options to true/false, or add a custom string or hex code colour where required.
+
+
+## Tracking options
+These are the parameters that you can modify to add your tracking codes or custom scripts.
+
+| Parameter               | Type   | Values                                                                                                              |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------------------------------------- |
+| `analytics`             | String | Example: `"G-FH87DE11XG"` (Analytics tracking code)                                                                 |
+| `facebookPixel`         | String | Example: `"990955817632222"` (Facebook Pixel code)                                                                  |
+| `HotjarTrackingCode`    | String | Example: `"990955817632322"` (Hotjar tracking code)                                                                 |
+| `customScript` (Inline) | Object | Example: `[{ type: 'custom', position: 'body', content: 'console.log('custom script');' }]`                         |
+| `customScript` (src)    | Object | Example: `[{ type: 'src', position: 'head', content: 'https://www.googletagmanager.com/gtag/js?id=G-FH87DE17XF' }]` |
+
 
 ### References:
 Almoguera, M. C. (2021). GlowCookies (Version 3.1.6) [Computer source code]. GitHub. https://github.com/manucaralmo/GlowCookies

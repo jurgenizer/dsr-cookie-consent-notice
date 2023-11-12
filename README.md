@@ -1,7 +1,5 @@
 # dsr-cookie-consent-notice
 
-## DSR Cookie Consent Notice 
-
 <img src="/repo-assets/dsr-ccn-optimized.png" width="400" alt="screenshot of the DSR Cookie Consent Notice"/>
 
 This cookie consent notice is the final arfact for my UCT Masters of Commerce in Information Systems research project. The research utilized a [Design Science Research (DSR)](http://www.desrist.org/desrist/content/design-science-research-in-information-systems.pdf) methodolgy and aimed to improve cookie consent notice communication and usability. This artefact was compared to a typology of seven prominent cookie consent notice types observed on the 100 most popular South Africa websites. Three design and build cycles took place, each followed by an evaluation. The evaluations were in the form of online experiments, and tested privacy communication and usability.
@@ -13,6 +11,45 @@ Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCooki
 
 ### CSS
 The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework for styling. However, this can easily be replaced if you prefer to use your own CSS.
+
+### How to use this cookie consent notice
+Insert this code in your html `<head>` tag.
+```html
+<!--Import Bulma CSS -->
+<link rel="stylesheet" href="bulma.min.css">
+
+  <!-- JavaScript for DSR Cookie Consent Notice-->
+  <script src="dsr-ccn.js"></script> 
+  <script>
+    cookieConsentNotice.start('en', {
+        analytics: 'G-8PDMD2MD95', 
+        hideAfterClick: false,
+        showDataCollectedDeviceDetails: true,
+        showDataCollectedIdentifiers: true,
+        showDataCollectedBrowsingHistory: true,
+        showDataCollectedLocation: true,
+        showDataSharedDeviceDetails: true,
+        showDataSharedIdentifiers: true,
+        showDataSharedBrowsingHistory: true,
+        showDataSharedLocation: true,
+        border: 'none',
+        position: 'left',
+        policyLink: 'https://yourdomain.co.za/privacy-policy/',
+        bannerDescription: 'Do you consent to the use of third-party cookies as described below? Read more in our',
+        bannerLinkText: 'Privacy Policy.',
+        bannerBackground: '#ffffff',
+        acceptBtnText: 'Accept',
+        acceptBtnBorder: 'none',
+        acceptBtnBackground: '#ECF7FE',
+        rejectBtnText: 'Decline',
+        rejectBtnBorder: 'none',
+        rejectBtnBackground: '#0B67A5',
+        manageColor: '#ffffff',
+        manageBackground: '#0B67A5' 
+      });
+  </script>
+```
+Note, most options are configurable. Simply set the options to true/false, or add a custom string or hex code colour where required.
 
 ### References:
 Almoguera, M. C. (2021). GlowCookies (Version 3.1.6) [Computer source code]. GitHub. https://github.com/manucaralmo/GlowCookies

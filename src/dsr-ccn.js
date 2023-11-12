@@ -132,7 +132,7 @@ class CookieConsentNotice {
   }
 
   checkStatus() {
-    switch (localStorage.getItem("CookieConsentNoticeH")) {
+    switch (localStorage.getItem("DSRCookieConsentNotice")) {
       case "1":
         this.openManageCookies();
         this.activateTracking();
@@ -167,14 +167,14 @@ class CookieConsentNotice {
   }
 
   acceptCookies() {
-    localStorage.setItem("CookieConsentNoticeH", "1")
+    localStorage.setItem("DSRCookieConsentNotice", "1")
     this.openManageCookies()
     this.activateTracking()
     this.addCustomScript()
   }
 
   rejectCookies() {
-    localStorage.setItem("CookieConsentNoticeH", "0");
+    localStorage.setItem("DSRCookieConsentNotice", "0");
     this.openManageCookies();
     this.disableTracking();
   }

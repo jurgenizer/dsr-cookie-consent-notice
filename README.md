@@ -10,7 +10,7 @@ Cookie consent notices have become increasingly popular worldwide, especially si
 Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCookies) by Almoguera (2021).
 
 ### Demo
-View the demo here
+View the demo here: https://jurgenizer.github.io/dsr-cookie-consent-notice-demo/
 
 ### CSS
 The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework for styling. However, this can easily be replaced if you prefer to use your own CSS.

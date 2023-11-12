@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Simple HTML document to demonstrate the DSR cookie consent notice artefact.">
+
+  <!-- Title -->
+  <title>DSR Cookie Consent Notice</title>
+
+  <!--Import Bulma CSS -->
+  <link rel="stylesheet" href="bulma.min.css">
+
+  <!-- JavaScript for DSR Cookie Consent Notice-->
+  <script src="dsr-ccn.js"></script> 
+  <script>
+    cookieConsentNotice.start('en', {
+        analytics: 'G-8PDMD2MD95', 
+        hideAfterClick: false,
+        showDataCollectedDeviceDetails: true,
+        showDataCollectedIdentifiers: true,
+        showDataCollectedBrowsingHistory: true,
+        showDataCollectedLocation: true,
+        showDataSharedDeviceDetails: true,
+        showDataSharedIdentifiers: true,
+        showDataSharedBrowsingHistory: true,
+        showDataSharedLocation: true,
+        border: 'none',
+        position: 'left',
+        policyLink: 'https://happyhols.co.za/privacy-policy/',
+        bannerDescription: 'Do you consent to the use of third-party cookies as described below? Read more in our',
+        bannerLinkText: 'Privacy Policy.',
+        bannerBackground: '#ffffff',
+        acceptBtnText: 'Accept',
+        acceptBtnBorder: 'none',
+        acceptBtnBackground: '#ECF7FE',
+        rejectBtnText: 'Decline',
+        rejectBtnBorder: 'none',
+        rejectBtnBackground: '#0B67A5',
+        manageColor: '#ffffff',
+        manageBackground: '#0B67A5' 
+      });
+  </script>
+
+</head>
+<body>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+       DSR Cookie Consent Notice
+      </h1>
+      <p class="subtitle">A cookie consent notice demo</p>
+    </div>
+  </section>
+
+</body>
+</html>

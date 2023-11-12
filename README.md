@@ -60,10 +60,10 @@ These are the parameters that you can modify to add your tracking codes or custo
 
 | Parameter               | Type   | Values                                                                                                              |
 | ----------------------- | ------ | ------------------------------------------------------------------------------------------------------------------- |
-| `analytics`             | String | Example: `"G-FH87DE11XG"` (Analytics tracking code)                                                                 |
+| `analytics`             | String | Example: `"G-8PDMD2MD95"` (Analytics tracking code)                                                                 |
 | `facebookPixel`         | String | Example: `"990955817632222"` (Facebook Pixel code)                                                                  |
 | `HotjarTrackingCode`    | String | Example: `"990955817632322"` (Hotjar tracking code)                                                                 |
-| `customScript` (Inline) | Object | Example: `[{ type: 'custom', position: 'body', content: 'console.log('custom script');' }]`                         |
+| `customScript` (inline) | Object | Example: `[{ type: 'custom', position: 'body', content: 'console.log('custom script');' }]`                         |
 | `customScript` (src)    | Object | Example: `[{ type: 'src', position: 'head', content: 'https://www.googletagmanager.com/gtag/js?id=G-FH87DE17XF' }]` |
 
 

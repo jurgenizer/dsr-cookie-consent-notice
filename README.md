@@ -5,18 +5,18 @@
 This cookie consent notice accompanies **Beyond Compliance: Improving Cookie Consent Notice Comprehension and Usability Through Design Science Research**, published in [*Information and Computer Security*](https://www.emeraldgrouppublishing.com/journal/ics).
 
 
-### Structured Abstract
+## Structured Abstract
 
-## Purpose
+### Purpose
 Cookie consent notices frequently fail to communicate data practices clearly or support genuine privacy choices. This study aimed to improve user comprehension of website data practices and the usability of consent decisions in the South African context, where the Protection of Personal Information Act (POPIA) mandates informed consent for cookie-based data collection.
 
-## Design/methodology/approach
-Design Science Research (DSR) was employed across three iterative build-and-evaluate cycles. A typology of cookie consent notice designs was derived from the 100 most popular South African websites. The DSR artefact was refined through expert usability evaluation (n=5), a large-scale online experiment comparing comprehension and usability against the typology (n=320), and a between-subjects validation study (n=275). Twenty-three empirically, theoretically, and legally grounded design specifications guided development.
+### Design/methodology/approach
+Design Science Research (DSR) was employed across three iterative build-and-evaluate cycles. A typology of cookie consent notice designs was derived from the 100 most popular South African websites. The DSR artefact was refined through expert usability evaluation (*n*=5), a large-scale online experiment comparing comprehension and usability against the typology (*n*=320), and a between-subjects validation study (*n*=275). Twenty-three empirically, theoretically, and legally grounded design specifications guided development.
 
-## Findings
+### Findings
 Most existing South African cookie consent notices performed poorly on privacy comprehension and usability. The DSR artefact performed as well as or better than prevalent South African designs across most communication and usability measures, with statistically significant advantages on specific measures, though not uniformly across all iterations and outcomes. Labelled icons facilitated long-term retention of data practices, consistent with multimedia learning theory. However, third-party data sharing remained poorly understood regardless of notice design, suggesting terminology, not just visual design, may be a barrier worth testing directly in future work.
 
-## Originality
+### Originality
 This study provides the first empirical baseline for cookie consent communication and usability in South Africa, an open-source POPIA-compliant artefact, and 23 reusable design specifications. It extends multimedia learning theory to consent notice design and surfaces a possible boundary condition distinguishing structural from terminological comprehension barriers, motivating future work to test this distinction directly.
 
 Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCookies) by Almoguera (2021).

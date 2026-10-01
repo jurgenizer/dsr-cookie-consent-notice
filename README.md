@@ -22,7 +22,7 @@ This study provides the first empirical baseline for cookie consent communicatio
 Initial code adapted from [GlowCookies](https://github.com/manucaralmo/GlowCookies) by Almoguera (2021).
 
 ### Demo
-View the demo [here](https://happyhols.co.za/h/)
+View the demo [here](https://happyhols.co.za/ccn-evaluation-3/h/)
 
 ### CSS
 The cookie consent notice makes use of [Bulma](https://bulma.io/), a free, open source CSS framework. However, this can easily be replaced if you prefer to use your own CSS.
